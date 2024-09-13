@@ -1,0 +1,121 @@
+.green { 
+    color: green;
+    text-align: right;
+}
+
+h1{
+    background-color: rgb(35, 35, 165); 
+}
+
+/* estilos de home */
+
+.contenedor1{
+    display: flex;
+    align-items: flex-start;
+    text-align: left;
+    padding-left: 20px;
+    column-gap: 10px;
+}
+
+.contenedor1 .imagen1 {
+    width: 100%; /* Ajusta el ancho de la imagen al 100% del contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+    display: block; /* Elimina el espacio blanco debajo de la imagen */
+}
+
+.home{
+    color: rgb(65, 65, 161); 
+    text-align: center;
+}
+.frame{
+    border-radius:12px;
+
+}
+.contacto{
+    color: rgb(65, 65, 161); 
+    text-align: center;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(51, 47, 47);
+    margin: 0;
+    padding: 0;
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.nav ul li {
+    margin: 0 15px;
+}
+
+.nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a{
+
+color: rgb(13, 133, 33);
+
+}
+.mainBiblio{
+    color: green;
+}
+.mainContacto{
+    color: red;
+}
+.mainDisco{
+    color: blue;
+    padding-left: 20px;
+}
+.mainLista{
+    color: brown;
+}
+.footer{
+     background-color: rgb(35, 35, 165); 
+}
+section {
+    padding: 40px 20px; 
+    margin: 20px auto; 
+    background-color: #c2c2c2; 
+    color: #333; 
+}
+
+section h2 {
+    margin-bottom: 20px; 
+    color: #007bff; 
+}
+.grid-container {
+    display: grid;
+   grid-template-columns: repeat(3, 1fr);
+    gap: 20px; 
+    padding: 20px;
+}
+
+.grid-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #f1f1f1;
+    padding: 10px;
+    
+}
+
+.grid-item img {
+    width: 100%; 
+    height: auto; 
+    max-width: 200px; 
+    border-radius: 5px;
+}
+
+.grid-item span {
+    margin-top: 10px;
+    color: #333;
+}
